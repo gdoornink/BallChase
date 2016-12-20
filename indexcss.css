@@ -1,6 +1,8 @@
 body {
 	margin: 0px;
-	background-color: #ECEBE4;
+	background-image: url("!Talented.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .ball {
 	margin: 5px;
