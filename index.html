@@ -5,20 +5,9 @@
 <link rel="stylesheet" href="indexcss.css">
 </head>
 <body>
-<div id="ball" onclick="ballClick">Ball</div>
-<script>
-  
-ball = document.getElementById("ball");
-var ballClick = new Function() {
-	document.write("Click");
-	left = 5 + Math.floor(85 * random());
-	top = 5 + Math.floor(85 * random());
-	ball.style.left = left + "%";
-	ball.style.top = top + "%";
-}
-
-ballClick();
-
-</script>
+<div class="ball" onclick="ballClick"></div>
+<div class="ball" onclick="ballClick"></div>
+<div class="ball" onclick="ballClick"></div>
+<div class="ball" onclick="ballClick"></div>
 </body>
 </html>
