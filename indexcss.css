@@ -16,7 +16,7 @@ body {
 	color: #ECEBE4;
 	box-shadow:
 		10px 5px 5px #BCBBB4,
-		10px 5px 5px -10px #DCDBD4;
+		10px 5px 5px -100px #DCDBD4;
 	transition: width 0.5s;
 	background-clip: padding-box;
 }
