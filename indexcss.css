@@ -3,6 +3,7 @@ body {
 	background-color: #ECEBE4;
 }
 #ball {
+	position: absolute;
 	height: 50px;
 	width: 50px;
 	border-radius: 25px;
