@@ -19,6 +19,6 @@ body {
 	transition: left 0.5s;
 }
 #ball:hover {
-	width: 75%;
+	top: 75%;
 	left: 75%;
 }
