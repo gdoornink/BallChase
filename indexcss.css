@@ -4,12 +4,16 @@ body {
 }
 #ball {
 	position: absolute;
-	height: 50px;
-	width: 50px;
-	border-radius: 25px;
+	display: inline-table;
+	text-align: center;
+	vertical-align: middle;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
 	left: 25%;
 	top: 25%;
 	background-color: #0A3200;
+	color: #ECEBE4;
 	box-shadow: 10px 5px 5px #BCBBB4;
 	transition: top 0.5s;
 	transition: left 0.5s;
