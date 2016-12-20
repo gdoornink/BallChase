@@ -1,6 +1,7 @@
 body {
 	margin: 0px;
-	background-color: #ECEBE4;
+	/*background-color: #ECEBE4;*/
+	background-color: black;
 }
 #ball {
 	height: 5%;
