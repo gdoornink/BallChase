@@ -17,7 +17,7 @@ body {
 	border-style: solid;
 	border-width: 25px;
 	border-color: rgba(10,50,00,0.2);
-	background-color: rgba(10,50,00,0.8);
+	background-color: rgba(10,50,00,0.9);
 	color: #ECEBE4;
 	transition: width 0.5s;
 	background-clip: padding-box;
