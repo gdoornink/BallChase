@@ -4,7 +4,7 @@ body {
 }
 .ball {
 	position: absolute;
-	margin: 25px
+	margin: 25px;
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
