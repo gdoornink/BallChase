@@ -15,7 +15,7 @@ body {
 	background-color: #0A3200;
 	color: #ECEBE4;
 	box-shadow:
-		10px 5px 5px 1px #ACABA4
+		10px 5px 5px 1px #ACABA4,
 		10px 5px 5px -5px #BCBBB4;
 	transition: width 0.5s;
 	background-clip: padding-box;
