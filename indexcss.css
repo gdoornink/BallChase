@@ -4,6 +4,7 @@ body {
 	background-image: url("!GoodShape.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
+}
 .ball {
 	margin: 5px;
 	padding: 25px;
