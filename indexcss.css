@@ -1,9 +1,10 @@
 body {
 	margin: 0px;
-	background-color: #ECEBE4;
-	/*background-image: url("!GoodShape.jpg");
+	/*background-color: #ECEBE4;*/
+	background-image: url("!GoodShape.jpg");
 	background-repeat: no-repeat;
-	background-size: contain;*/
+	background-size: cover;
+	background-position: center;
 }
 .ball {
 	margin: 5px;
