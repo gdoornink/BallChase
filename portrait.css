@@ -2,7 +2,10 @@
 	position: absolute;
 	transition: top 0.25s;
 	transition: left 0.25s;
-	top: 10%
+	top: 10%;
+}
+.card:hover {
+	height: 75%;
 }
 #card1 {
 	left: 10%;
