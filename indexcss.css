@@ -10,15 +10,14 @@ body {
 	padding: 25px;
 	text-align: center;
 	font-family: sans-serif;
-	font-size: 5vh;
+	font-size: 3vh;
 	height: 100px;
-	width: auto;
-	min-width: 100px;
+	width: 100px;
 	border-radius: 50px;
 	border-style: solid;
 	border-width: 25px;
 	border-color: rgba(10,50,00,0.2);
-	background-color: rgba(10,50,00,0.95);
+	background-color: rgb(10,50,00);
 	color: #ECEBE4;
 	transition: width 0.5s;
 	background-clip: padding-box;
