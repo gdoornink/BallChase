@@ -13,49 +13,20 @@ body {
 	font-size: 4vmin;
 	height: 100px;
 	width: 100px;
-	border-radius: 50px;
+	border-radius: 75px;
 	border-style: solid;
 	border-width: 25px;
 	border-color: rgba(10,50,00,0.2);
 	background-color: rgb(10,50,00);
 	color: #ECEBE4;
 	background-clip: padding-box;
+	transition: width 0.5s;
+	transition: height 0.5s;
 }
-
-@media screen and (orientation: landscape) {
-	.ball {
-		transition: width 0.5s;
-		-webkit-transition: width 0.5s;
-		transition: height 0.5s;
-		-webkit-transition: height 0.5s;
-	}
-	.ball:hover {
-		width: 75%;
-	}
+.ball:hover {
+	width: 75%;
 }
-
-@media screen and (orientation: portrait) {
-	.ball {
-		position: absolute;
-		transition: top 0.25s;
-		transition: left 0.25s;
-		top: 10%;
-		transition: width 0.5s;
-		-webkit-transition: width 0.5s;
-		transition: height 0.5s;
-		-webkit-transition: height 0.5s;
-	}
-	.ball:hover {
-		height: 75%;
-	}
-	#ball1 {
-		left: 10%;
-	}
-	#ball2 {
-		left: 40%;
-	}
-	#ball3 {
-		left: 70%;
-	}
+.dropmenu {
 }
+.dropmenu:hover {
 }
