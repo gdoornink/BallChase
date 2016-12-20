@@ -15,10 +15,8 @@ body {
 	background-color: #0A3200;
 	color: #ECEBE4;
 	box-shadow: 10px 5px 5px #BCBBB4;
-	transition: top 0.5s;
 	transition: left 0.5s;
 }
 #ball:hover {
-	top: 75%;
 	left: 75%;
 }
