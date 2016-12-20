@@ -23,6 +23,31 @@ body {
 	transition: height 0.5s;
 	background-clip: padding-box;
 }
-/*.ball:hover {
-	width: 75%;
-}*/
+
+@media (orientation:landscape) {
+	ball:hover {
+		width: 75%;
+	}
+}
+
+@media (orientation: portrait) {
+	.card {
+		position: absolute;
+		transition: top 0.25s;
+		transition: left 0.25s;
+		top: 10%;
+	}
+	.card:hover {
+		height: 75%;
+	}
+	#card1 {
+		left: 10%;
+	}
+	#card2 {
+		left: 40%;
+	}
+	#card3 {
+		left: 70%;
+	}
+}
+}
