@@ -6,7 +6,7 @@ body {
 	background-position: center;
 }
 .ball {
-	margin: 5px;
+	margin: 0px;
 	padding: 25px;
 	text-align: center;
 	font-family: sans-serif;
@@ -15,7 +15,7 @@ body {
 	width: 100px;
 	border-radius: 50px;
 	border-style: solid;
-	border-width: 25px;
+	border-width: 5%;
 	border-color: rgba(10,50,00,0.2);
 	background-color: rgb(10,50,00);
 	color: #ECEBE4;
