@@ -2,21 +2,20 @@ body {
 	margin: 0px;
 	background-color: #ECEBE4;
 }
-#ball {
+.ball {
 	position: absolute;
+	margin: 25px
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
 	height: 100px;
 	width: 100px;
 	border-radius: 50px;
-	left: 25%;
-	top: 25%;
 	background-color: #0A3200;
 	color: #ECEBE4;
 	box-shadow: 10px 5px 5px #BCBBB4;
-	transition: left 0.5s;
+	transition: width 0.5s;
 }
 #ball:hover {
-	left: 75%;
+	width: 75%;
 }
