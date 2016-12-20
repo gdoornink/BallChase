@@ -3,7 +3,7 @@ body {
 	background-color: #ECEBE4;
 }
 .ball {
-	/*margin: 25px;*/
+	margin: 5px;
 	padding: 25px;
 	text-align: center;
 	height: 100px;
@@ -16,7 +16,7 @@ body {
 	color: #ECEBE4;
 	box-shadow:
 		10px 5px 5px #BCBBB4,
-		10px 5px 5px -25px #DCDBD4;
+		10px 5px 5px -10px #DCDBD4;
 	transition: width 0.5s;
 	background-clip: padding-box;
 }
