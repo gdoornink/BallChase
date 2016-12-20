@@ -8,6 +8,7 @@
 ball = document.getElementById("ball");
 var ballClick = new function() {
 //	localStorage.count = number(localStorage.coount) + 1;
+	document.write("Click");
 	left = 5 + Math.floor(85 * random());
 	top = 5 + Math.floor(85 * random());
 	ball.style.left = left + "%";
