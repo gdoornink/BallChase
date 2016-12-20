@@ -3,9 +3,9 @@ body {
 	background-color: #ECEBE4;
 }
 #ball {
-	height: 5%;
-	width: 5%;
-	border-radius: 2.5%;
+	height: 5vw;
+	width: 5vw;
+	border-radius: 2.5vw;
 	left: 25%;
 	top: 25%;
 	background-color: #0A3200;
