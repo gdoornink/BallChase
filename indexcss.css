@@ -1,6 +1,5 @@
 body {
 	margin: 0px;
-	/*background-color: #ECEBE4;*/
 	background-image: url("!GoodShape.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -10,6 +9,8 @@ body {
 	margin: 5px;
 	padding: 25px;
 	text-align: center;
+	font-family: sans-serif;
+	font-size: 5vh;
 	height: 100px;
 	width: 100px;
 	border-radius: 50px;
@@ -18,8 +19,6 @@ body {
 	border-color: rgba(10,50,00,0.2);
 	background-color: #0A3200;
 	color: #ECEBE4;
-	/*box-shadow:
-		10px 5px 5px #BCBBB4;*/
 	transition: width 0.5s;
 	background-clip: padding-box;
 }
