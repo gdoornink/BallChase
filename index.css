@@ -43,9 +43,7 @@ body {
 }
 @media screen and (orientation:portrait) {
 	.ball {
-		display: table-cell;
-		float: left;
-		bottom: 0%;
+		display: block;
 		margin: 0px 0px auto 0px;
 	}
 	.ball:hover {
