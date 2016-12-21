@@ -7,6 +7,7 @@ body {
 }
 .ball {
 	margin: 0px auto 0px 0px;
+	float: left; /* This is new*/
 	padding: 3vw;
 	text-align: center;
 	font-family: sans-serif;
@@ -27,7 +28,8 @@ body {
 	-ms-transition: width 0.5s, height 0.5s;
 }
 .ball:hover {
-	width: 90vw;
+	height: 50vh; /* This is new */
+	/*width: 90vw;*/
 }
 .dropmenu {
 }
