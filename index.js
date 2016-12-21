@@ -1,6 +1,6 @@
 var balls = document.getElementsByClassName("ball");
 for (var i=0; i < balls.length - 1; i++) {
-	balls[i].onclick = ballClick();
+	balls[i].setAttribute('onclick','ballClick()');
 }
 
 function ballClick() {
