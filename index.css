@@ -43,7 +43,7 @@ body {
 }
 @media screen and (orientation:portrait) {
 	.ball {
-		display: block;
+		display: table-cell;
 		float: left;
 		margin: 0px 0px auto 0px;
 	}
