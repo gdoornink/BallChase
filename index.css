@@ -17,7 +17,7 @@ body {
 	border-style: solid;
 	border-width: 2vw;
 	border-color: rgba(10,50,00,0.2);
-	background-color: rgb(10,50,00);
+	background-color: rgba(10,50,00,0.9);
 	color: #ECEBE4;
 	background-clip: padding-box;
 	transition: width 0.5s, height 0.5s;
