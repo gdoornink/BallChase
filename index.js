@@ -17,3 +17,4 @@ var ballClick = new Function() {
 
 var one = document.getElementById("ball1");
 one.style.backgroundColor = "black";
+one.innerHTML = "Hi!";
