@@ -1,5 +1,7 @@
 body {
 	margin: 0px;
+	height: 100%;
+	width: 100%;
 	background-image: url("!GoodShape.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
