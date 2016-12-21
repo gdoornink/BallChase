@@ -20,14 +20,14 @@ body {
 	background-color: rgb(10,50,00);
 	color: #ECEBE4;
 	background-clip: padding-box;
-	transition: width 0.5s, height 0.5s, margin 0.5s;
-	-webkit-transition: width 0.5s, height 0.5s, margin 0.5s;
-	-moz-transition: width 0.5s, height 0.5s, margin 0.5s;
-	-o-transition: width 0.5s, height 0.5s, margin 0.5s;
-	-ms-transition: width 0.5s, height 0.5s, margin 0.5s;
+	transition: width 0.5s, height 0.5s;
+	-webkit-transition: width 0.5s, height 0.5s;
+	-moz-transition: width 0.5s, height 0.5s;
+	-o-transition: width 0.5s, height 0.5s;
+	-ms-transition: width 0.5s, height 0.5s;
 }
 .ball:hover {
-	width: 40vw;
+	width: 90vw;
 }
 .dropmenu {
 }
