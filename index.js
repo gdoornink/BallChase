@@ -14,7 +14,6 @@ function ballClick() {
 				ball.style.backgroundColor = "rgba(0,0,0,0.9)";
 				ball.style.borderColor = "rgba(0,0,0,0.2)";
 				ball.innerHTML = "";
-				ball.style.margin = "0px 0px 0px auto";
 				ball.ballcolor = "black";
 				if(window.innerHeight > window.innerWidth) {
 					ball.style.margin = "auto 0px 0px 0px";
