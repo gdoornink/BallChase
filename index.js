@@ -14,7 +14,7 @@ var ballClick = new Function() {
 	ball.style.left = left + "%";
 	ball.style.top = top + "%";
 }*/
-var click = new Function() {
+function ballClick() {
 var one = document.getElementById("ball1");
 one.style.backgroundColor = "black";
 one.innerHTML = "Hi!";
