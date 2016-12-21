@@ -1,8 +1,8 @@
 function ballClick() {
 	var ball = event.target;
+	alert(ball.ballside);
 	if(!ball.ballside) {
 		ball.ballside = "left";
-		alert(ball.ballside);
 	}
 	if(ball.ballside = "left") {
 		ball.style.backgroundColor = "rgb(0,0,0)";
