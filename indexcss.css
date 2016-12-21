@@ -13,9 +13,9 @@ body {
 	font-size: 4vmin;
 	height: 15vmin;
 	width: 15vmin;
-	border-radius: 75px;
+	border-radius: 15vmin;
 	border-style: solid;
-	border-width: 25px;
+	border-width: 5vmin;
 	border-color: rgba(10,50,00,0.2);
 	background-color: rgb(10,50,00);
 	color: #ECEBE4;
