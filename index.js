@@ -8,7 +8,6 @@ var balls = document.getElementsByClassName("ball");
 function ballOver() {
 	var ball = event.target;
 	ball.open = "yes";
-	alert(ball.open);
 }
 
 function ballOut() {
