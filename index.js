@@ -6,6 +6,7 @@ var balls = document.getElementsByClassName("ball");
 }*/
 
 function ballOver() {
+	setTimeout('',500);
 	var ball = event.target;
 	ball.open = "yes";
 }
