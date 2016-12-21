@@ -13,14 +13,14 @@ function ballClick() {
 			case "left":
 				ball.style.backgroundColor = "rgba(0,0,0,0.9)";
 				ball.style.borderColor = "rgba(0,0,0,0.2)";
-				ball.innerHTML = "Right";
+				ball.innerHTML = "";
 				ball.style.margin = "0px 0px 0px auto";
 				ball.ballside = "right";
 				break;
 			case "right":
 				ball.style.backgroundColor = "rgba(10,50,0,0.9)";
 				ball.style.borderColor = "rgba(10,50,0,0.2)";
-				ball.innerHTML = "Left";
+				ball.innerHTML = "";
 				ball.style.margin = "0px auto 0px 0px";
 				ball.ballside = "left";
 				break;
