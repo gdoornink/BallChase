@@ -8,6 +8,7 @@ for (var i=0; i < balls.length; i++) {
 function ballOver() {
 	var ball = event.target;
 	ball.open = "yes";
+	alert(ball.open);
 }
 
 function ballOut() {
