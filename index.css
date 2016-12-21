@@ -36,7 +36,7 @@ body {
 		margin: 0px auto 0px 0px;
 	}
 	.ball:hover {
-		width: 90vmax;
+		width: 75vmax;
 }
 @media screen and (orientation:portrait) {
 	.ball {
