@@ -27,7 +27,7 @@ body {
 	-ms-transition: width 0.5s, height 0.5s;
 }
 .ball:hover {
-	width: 90vw;
+	width: 80vw;
 }
 .dropmenu {
 }
