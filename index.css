@@ -11,11 +11,11 @@ body {
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 4vmin;
-	height: 10vw;
-	width: 10vw;
-	border-radius: 10vw;
+	height: 5vw;
+	width: 5vw;
+	border-radius: 5vw;
 	border-style: solid;
-	border-width: 5vw;
+	border-width: 2vw;
 	border-color: rgba(10,50,00,0.2);
 	background-color: rgb(10,50,00);
 	color: #ECEBE4;
@@ -27,7 +27,7 @@ body {
 	-ms-transition: width 0.5s, height 0.5s;
 }
 .ball:hover {
-	width: 80vw;
+	width: 90vw;
 }
 .dropmenu {
 }
