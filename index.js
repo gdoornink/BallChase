@@ -1,21 +1,6 @@
 var balls = document.getElementsByClassName("ball");
-/*for (var i=0; i < balls.length; i++) {
+for (var i=0; i < balls.length; i++) {
 	balls[i].onclick = "ballClick()";
-	balls[i].onmouseover = "ballOver()";
-	balls[i].onmouseout = "ballOut()";
-}*/
-
-function ballOver() {
-	setTimeout(function() {
-		var ball = event.target;
-		ball.open = "yes";
-		alert(ball.open);
-	},500);
-}
-
-function ballOut() {
-	var ball = event.target;
-	ball.open = "no"
 }
 
 function ballClick() {
