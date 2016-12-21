@@ -36,13 +36,12 @@ body {
 		margin: 0px auto 0px 0px;
 	}
 	.ball:hover {
-		width: 75vmax;
+		width: 90vmax;
 }
 @media screen and (orientation:portrait) {
 	.ball {
 		display: block;
-		float: left;
-		margin: 0px 0px auto 0px;
+		margin: 0px auto 0px auto;
 	}
 	.ball:hover {
 		width: 90vmax;
