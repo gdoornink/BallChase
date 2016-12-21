@@ -12,7 +12,7 @@ function ballClick() {
 			ball.ballside = "right";
 			break;
 		case "right":
-			ball.style.backgroundColor = "rgb(10,50,0,0.9)";
+			ball.style.backgroundColor = "rgba(10,50,0,0.9)";
 			ball.style.borderColor = "rgba(10,50,0,0.2)";
 			ball.innerHTML = "Left";
 			ball.style.margin = "0px auto 0px 0px";
