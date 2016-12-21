@@ -11,8 +11,8 @@ body {
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 4vmin;
-	height: 100px;
-	width: 100px;
+	height: 10vw;
+	width: 10vw;
 	border-radius: 75px;
 	border-style: solid;
 	border-width: 25px;
@@ -32,7 +32,7 @@ body {
 	-ms-transition: height 1s ease;
 }
 .ball:hover {
-	width: 75%;
+	width: 75vw;
 }
 .dropmenu {
 }
