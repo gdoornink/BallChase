@@ -40,6 +40,7 @@ body {
 }
 @media screen and (orientation:portrait) {
 	.ball {
+		position: absolute;
 		float: left;
 		margin: 0px 0px auto 0px;
 	}
