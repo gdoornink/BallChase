@@ -40,10 +40,9 @@ body {
 }
 @media screen and (orientation:portrait) {
 	.ball {
-		position: fixed;
 		float: left;
 		margin: 0px 0px auto 0px;
 	}
 	.ball:hover {
-		height: 90vmax;
+		width: 90vmax;
 }
