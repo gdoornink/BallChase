@@ -9,6 +9,7 @@ function ballOver() {
 	setTimeout('',500);
 	var ball = event.target;
 	ball.open = "yes";
+	alert(ball.open);
 }
 
 function ballOut() {
