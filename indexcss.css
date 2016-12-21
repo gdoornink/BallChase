@@ -20,7 +20,7 @@ body {
 	background-color: rgb(10,50,00);
 	color: #ECEBE4;
 	background-clip: padding-box;
-	transition: width 1s ease;
+	transform: width 1s ease;
 	transition: height 1s ease;
 	-webkit-transition: width 1s ease;
 	-webkit-transition: height 1s ease;
