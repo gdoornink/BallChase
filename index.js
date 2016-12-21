@@ -1,5 +1,5 @@
 var balls = document.getElementsByClassName("ball");
-alert(balls);
+alert(balls[0]);
 for (var i=0; i < balls.length; i++) {
 	balls[i].onclick = "ballClick()";
 	balls[i].onmouseover = "ballOver()";
