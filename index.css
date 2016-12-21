@@ -45,7 +45,7 @@ body {
 	.ball {
 		display: table-cell;
 		float: left;
-		top: 0%;
+		bottom: 0%;
 		margin: 0px 0px auto 0px;
 	}
 	.ball:hover {
