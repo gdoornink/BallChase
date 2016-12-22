@@ -56,6 +56,6 @@ body {
 		left: 40vmax;
 	}
 	.ball:hover {
-		height: 90vmax;
+		height: 30vmax;
 	}
 }
