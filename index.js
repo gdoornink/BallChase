@@ -16,8 +16,8 @@ function ballClick() {
 				ball.innerHTML = "";
 				ball.ballcolor = "black";
 				if(document.documentElement.clientHeight > document.documentElement.clientWidth) {
-					ball.style.bottom = "0vmax";
 					delete ball.style.top;
+					ball.style.bottom = "0vmax";
 				} else {
 					ball.style.margin = "0px 0px 0px auto";
 				}
@@ -28,8 +28,8 @@ function ballClick() {
 				ball.innerHTML = "";
 				ball.ballcolor = "green";
 				if(document.documentElement.clientHeight > document.documentElement.clientWidth) {
-					ball.style.top = "0vmax";
 					delete ball.style.bottom;
+					ball.style.top = "0vmax";
 				} else {
 					ball.style.margin = "0px auto 0px 0px";
 				}
