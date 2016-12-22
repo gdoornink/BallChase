@@ -2,6 +2,7 @@ var greenBackground = "rgba(10,50,0,0.9)";
 var greenBorder = "rgba(10,50,0,0.1)";
 var royalBackground = "rgba(33,45,64,0.9)";
 var royalBorder = "rgba(33,45,64,0.1)";
+document.body.requestFullScreen();
 
 var balls = document.getElementsByClassName("ball");
 for (var i=0; i < balls.length; i++) {
