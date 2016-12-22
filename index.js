@@ -16,7 +16,8 @@ function ballClick() {
 				ball.innerHTML = "";
 				ball.ballcolor = "black";
 				if(window.innerHeight > window.innerWidth) {
-					ball.style.margin = "auto 0px 0px 0px";
+					ball.style.bottom = "0vmax";
+					delete ball.style.top;
 				} else {
 					ball.style.margin = "0px 0px 0px auto";
 				}
@@ -27,7 +28,8 @@ function ballClick() {
 				ball.innerHTML = "";
 				ball.ballcolor = "green";
 				if(window.innerHeight > window.innerWidth) {
-					ball.style.margin = "0px 0px auto 0px";
+					ball.style.top = "0vmax";
+					delete ball.style.bottom;
 				} else {
 					ball.style.margin = "0px auto 0px 0px";
 				}
