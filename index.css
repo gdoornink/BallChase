@@ -35,7 +35,7 @@ body {
 @media screen and (orientation:landscape) {
 	.ball {
 		display: block;
-		margin: 0px auto 0px 0px;
+		top: 0vmax;
 	}
 	.ball:hover {
 		width: 90vmax;
