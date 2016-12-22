@@ -1,20 +1,24 @@
+var greenBackground = "rgba(10,50,0,0.9)";
+var greenBorder = "rgba(10,50,0,0.1)";
+var royalBackground = "rgba(33,45,64,0.9)";
+var royalBorder = "rgba(33,45,64,0.1)";
+
 var balls = document.getElementsByClassName("ball");
 for (var i=0; i < balls.length; i++) {
 	balls[i].setAttribute('onclick','ballClick()');
+	balls[i].ballcolor = "green";
+	balls[i].backgroundColor = greenBackground;
+	balls[i].borderColor = greenBorder;
 }
 
 function ballClick() {
 	var ball = event.target;
-	if(!ball.ballcolor) {
-		ball.ballcolor = "green";
-	}
-	if(ball.open = "yes") {
 		switch (ball.ballcolor) {
 			case "green":
-				ball.style.backgroundColor = "rgba(0,0,0,0.9)";
-				ball.style.borderColor = "rgba(0,0,0,0.2)";
+				ball.style.backgroundColor = royalBackground;
+				ball.style.borderColor = royalBorder;
 				ball.innerHTML = "";
-				ball.ballcolor = "black";
+				ball.ballcolor = "royal";
 			/*	if(document.documentElement.clientHeight > document.documentElement.clientWidth) {	*/
 					ball.style.top = null;
 					ball.style.bottom = "0vmax";
@@ -22,9 +26,9 @@ function ballClick() {
 					ball.style.margin = "0px 0px 0px auto";
 			/*	}	*/
 				break;
-			case "black":
-				ball.style.backgroundColor = "rgba(10,50,0,0.9)";
-				ball.style.borderColor = "rgba(10,50,0,0.2)";
+			case "royal":
+				ball.style.backgroundColor = greenBackground;
+				ball.style.borderColor = greenBorder;
 				ball.innerHTML = "";
 				ball.ballcolor = "green";
 			/*	if(document.documentElement.clientHeight > document.documentElement.clientWidth) {	*/
@@ -35,5 +39,4 @@ function ballClick() {
 			/*	}	*/
 				break;
 		}
-	}
 }
