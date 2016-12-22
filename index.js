@@ -15,24 +15,24 @@ function ballClick() {
 				ball.style.borderColor = "rgba(0,0,0,0.2)";
 				ball.innerHTML = "";
 				ball.ballcolor = "black";
-				if(document.documentElement.clientHeight > document.documentElement.clientWidth) {
+			/*	if(document.documentElement.clientHeight > document.documentElement.clientWidth) {	*/
 					ball.style.top = null;
 					ball.style.bottom = "0vmax";
-				} else {
+			/*	} else {	*/
 					ball.style.margin = "0px 0px 0px auto";
-				}
+			/*	}	*/
 				break;
 			case "black":
 				ball.style.backgroundColor = "rgba(10,50,0,0.9)";
 				ball.style.borderColor = "rgba(10,50,0,0.2)";
 				ball.innerHTML = "";
 				ball.ballcolor = "green";
-				if(document.documentElement.clientHeight > document.documentElement.clientWidth) {
+			/*	if(document.documentElement.clientHeight > document.documentElement.clientWidth) {	*/
 					ball.style.bottom = null;
 					ball.style.top = "0vmax";
-				} else {
+			/*	} else {	*/
 					ball.style.margin = "0px auto 0px 0px";
-				}
+			/*	}	*/
 				break;
 		}
 	}
