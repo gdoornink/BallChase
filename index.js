@@ -7,8 +7,8 @@ var balls = document.getElementsByClassName("ball");
 for (var i=0; i < balls.length; i++) {
 	balls[i].setAttribute('onclick','ballClick()');
 	balls[i].ballcolor = "green";
-	balls[i].backgroundColor = greenBackground;
-	balls[i].borderColor = greenBorder;
+	balls[i].style.backgroundColor = greenBackground;
+	balls[i].style.borderColor = greenBorder;
 }
 
 function ballClick() {
