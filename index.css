@@ -44,7 +44,7 @@ body {
 @media screen and (orientation:portrait) {
 	.ball {
 		position: fixed;
-		top: 0%;
+		top: 0vmax;
 	}
 	#ball1 {
 		left: 0vmax;
@@ -53,9 +53,9 @@ body {
 		left: 15vmax;
 	}
 	#ball3 {
-		left: 40vmax;
+		left: 30vmax;
 	}
 	.ball:hover {
-		height: 30vmax;
+		height: 90vmax;
 	}
 }
