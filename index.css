@@ -16,9 +16,9 @@ body {
 	width: 33.33vmin;
 	height: 33.33vmin;
 	border-style: solid;
-	border-width: 2vmax;
-	border-radius: 6vmax;
-	padding: 3vmax;
+	border-width: 6vmin;
+	border-radius: 12vmin;
+	padding: 3vmin;
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 3vmin;
