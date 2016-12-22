@@ -15,8 +15,8 @@ function ballClick() {
 				ball.style.borderColor = "rgba(0,0,0,0.2)";
 				ball.innerHTML = "";
 				ball.ballcolor = "black";
-				if(window.innerHeight > window.innerWidth) {
-					ball.style.bottom = "0vmax";
+				if(document.documentElement.clientHeight > document.documentElement.clientWidth) {
+					ball.style.bottom = "0%";
 					delete ball.style.top;
 				} else {
 					ball.style.margin = "0px 0px 0px auto";
@@ -27,8 +27,8 @@ function ballClick() {
 				ball.style.borderColor = "rgba(10,50,0,0.2)";
 				ball.innerHTML = "";
 				ball.ballcolor = "green";
-				if(window.innerHeight > window.innerWidth) {
-					ball.style.top = "0vmax";
+				if(document.documentElement.clientHeight > document.documentElement.clientWidth) {
+					ball.style.top = "0%";
 					delete ball.style.bottom;
 				} else {
 					ball.style.margin = "0px auto 0px 0px";
