@@ -44,7 +44,7 @@ body {
 @media screen and (orientation:portrait) {
 	.ball {
 		position: fixed;
-		top: 0vmax;
+		top: 0%;
 	}
 	#ball1 {
 		left: 0vmax;
