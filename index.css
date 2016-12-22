@@ -44,14 +44,15 @@ body {
 @media screen and (orientation:portrait) {
 	.ball {
 		position: fixed;
+		top: 0vmax;
 	}
 	#ball1 {
 		left: 0vmax;
-		top: 0vmax;
+		/*top: 0vmax;*/
 	}
 	#ball2 {
 		left: 15vmax;
-		bottom: 0vmax;
+		/*bottom: 0vmax;*/
 	}
 	#ball3 {
 		left: 30vmax;
