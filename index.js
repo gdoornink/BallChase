@@ -18,6 +18,7 @@ function ballClick() {
 				if(document.documentElement.clientHeight > document.documentElement.clientWidth) {
 					ball.style.bottom = "0%";
 					delete ball.style.top;
+					alert(ball.style.bottom);
 				} else {
 					ball.style.margin = "0px 0px 0px auto";
 				}
