@@ -19,24 +19,18 @@ function ballClick() {
 				ball.style.borderColor = royalBorder;
 				ball.innerHTML = "";
 				ball.ballcolor = "royal";
-			/*	if(document.documentElement.clientHeight > document.documentElement.clientWidth) {	*/
-					ball.style.top = null;
-					ball.style.bottom = "0vmax";
-			/*	} else {	*/
-					ball.style.margin = "0px 0px 0px auto";
-			/*	}	*/
+				ball.style.top = null;
+				ball.style.bottom = "0vmax";
+				ball.style.margin = "0px 0px 0px auto";
 				break;
 			case "royal":
 				ball.style.backgroundColor = greenBackground;
 				ball.style.borderColor = greenBorder;
 				ball.innerHTML = "";
 				ball.ballcolor = "green";
-			/*	if(document.documentElement.clientHeight > document.documentElement.clientWidth) {	*/
-					ball.style.bottom = null;
-					ball.style.top = "0vmax";
-			/*	} else {	*/
-					ball.style.margin = "0px auto 0px 0px";
-			/*	}	*/
+				ball.style.bottom = null;
+				ball.style.top = "0vmax";
+				ball.style.margin = "0px auto 0px 0px";
 				break;
 		}
 }
