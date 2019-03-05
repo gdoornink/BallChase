@@ -40,7 +40,7 @@ TrelloPowerUp.initialize({
       callback: function(t){
         return t.popup({
           title: "Estimation",
-          url: 'estimate.html'
+          url: 'tpu_estimate.html'
         });
       }
     }];
